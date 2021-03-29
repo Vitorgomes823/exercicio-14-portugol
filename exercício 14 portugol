@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real prova1 , prova2 , prova3 , prova4 , media
+
+		escreva("Digite o valor da nota da prova 1 : ")
+		leia(prova1)
+
+		escreva("Digite o valor da nota da prova 2 : ")
+		leia(prova2)
+		
+		escreva("Digite o valor da nota da prova 3 : ")
+		leia(prova3)
+
+		escreva("Digite o valor da nota da prova 4 : ")
+		leia(prova4)
+
+		media = (prova1 + prova2 + prova3 + prova4) / 4
+
+		escreva("sua media é ", media )
+	}	
+		
+}
